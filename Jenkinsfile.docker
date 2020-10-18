@@ -1,8 +1,8 @@
 pipeline {
     environment {
-        registry = "santiagomerlo/test-spring-boot"
-        registryCredential = 'dockerhub/sam'
-        dockerImage = ''
+        registry = "milelucero98/test-spring-boot-tp7"
+        registryCredential = 'dockerhub/milelucero98'
+        dockerImage = 'test-spring-boot-tp7'
     }
     agent any
     stages {
