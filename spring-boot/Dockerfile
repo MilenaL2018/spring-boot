@@ -17,3 +17,5 @@ ENV JAVA_OPTS="-Xms32m -Xmx128m"
 ENTRYPOINT exec java $JAVA_OPTS -Djava.security.egd=file:/dev/./urandom -jar /app/spring-boot-application.jar
 
 HEALTHCHECK --interval=1m --timeout=3s CMD wget -q -T 3 -s http://localhost:8080/actuator/health/ || exit 1
+
+
