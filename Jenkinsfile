@@ -13,8 +13,10 @@ pipeline {
         stage('Build image') {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
-            steps{
-                dockerImage = docker.build("milelucero98/test-spring-boot-tp7") + ":$BUILD_NUMBER"
+            steps {
+                script {
+                    dockerImage = docker.build("milelucero98/test-spring-boot-tp7") + ":$BUILD_NUMBER"
+                }
             }
         }
         stage('Deploy our image') {
