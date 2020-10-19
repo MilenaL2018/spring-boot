@@ -1,5 +1,8 @@
 pipeline {
-    def app
+    environment {
+        registry = 'milelucero98/test-spring-boot-tp7'
+        dockerImage = ''
+    }
     agent any
     stages {
         stage('Cloning our Git') {
@@ -11,7 +14,7 @@ pipeline {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
             steps{
-                app = docker.build("milelucero98/test-spring-boot-tp7")
+                dockerImage = docker.build("milelucero98/test-spring-boot-tp7") + ":$BUILD_NUMBER"
             }
         }
         stage('Deploy our image') {
@@ -20,9 +23,9 @@ pipeline {
                     docker.withRegistry('https://registry.hub.docker.com', 'docker-hub-credentials') {
                         app.push("${env.BUILD_NUMBER}")
                         app.push("latest")
+                    }
                 }
             }
-        }
         }
         stage('Cleaning up') {
             steps { 
