@@ -9,14 +9,19 @@ pipeline {
         stage('Build image') {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
-
-            app = docker.build("milelucero98/test-spring-boot-tp7")
+            steps{
+                app = docker.build("milelucero98/test-spring-boot-tp7")
+            }
         }
         stage('Deploy our image') {
-            docker.withRegistry('https://registry.hub.docker.com', 'docker-hub-credentials') {
-                app.push("${env.BUILD_NUMBER}")
-                app.push("latest")
+             steps {
+                script {
+                    docker.withRegistry('https://registry.hub.docker.com', 'docker-hub-credentials') {
+                        app.push("${env.BUILD_NUMBER}")
+                        app.push("latest")
+                }
             }
+        }
         }
         stage('Cleaning up') {
             steps { 
