@@ -1,38 +1,36 @@
-pipeline {
-    environment {
-        registry = 'milelucero98/test-spring-boot-tp7'
-        dockerImage = ''
+node {
+    def app
+
+    stage('Clone repository') {
+        /* Let's make sure we have the repository cloned to our workspace */
+
+        checkout scm
     }
-    agent any
-    stages {
-        stage('Cloning our Git') {
-            steps {
-                git 'https://github.com/MilenaL2018/spring-boot-tp7.git'
-            }
-        }
-        stage('Build image') {
+
+    stage('Build image') {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
-            steps {
-                script {
-                    dockerImage = docker.build("milelucero98/test-spring-boot-tp7") + ":$BUILD_NUMBER"
-                }
-            }
+
+        app = docker.build("getintodevops/hellonode")
+    }
+
+    stage('Test image') {
+        /* Ideally, we would run a test framework against our image.
+         * For this example, we're using a Volkswagen-type approach ;-) */
+
+        app.inside {
+            sh 'echo "Tests passed"'
         }
-        stage('Deploy our image') {
-             steps {
-                script {
-                    docker.withRegistry('https://registry.hub.docker.com', 'docker-hub-credentials') {
-                        app.push("${env.BUILD_NUMBER}")
-                        app.push("latest")
-                    }
-                }
-            }
+    }
+
+    stage('Push image') {
+        /* Finally, we'll push the image with two tags:
+         * First, the incremental build number from Jenkins
+         * Second, the 'latest' tag.
+         * Pushing multiple tags is cheap, as all the layers are reused. */
+        docker.withRegistry('https://registry.hub.docker.com', 'docker-hub-credentials') {
+            app.push("${env.BUILD_NUMBER}")
+            app.push("latest")
         }
-        stage('Cleaning up') {
-            steps { 
-                sh "docker rmi $registry:$BUILD_NUMBER" 
-            }
-        } 
     }
 }
