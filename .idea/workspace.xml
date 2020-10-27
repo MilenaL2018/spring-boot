@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="840d3e31-437e-4f59-8906-d5f2046684c6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/sample/actuator/AbstractTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/sample/actuator/SampleControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Jenkinsfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/spring-configuration-metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/actuator/ExampleHealthIndicator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/actuator/ExampleInfoContributor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/actuator/HelloWorldService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/actuator/SampleActuatorApplication$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/actuator/SampleActuatorApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/actuator/SampleController$Message.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/actuator/SampleController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/sample/actuator/ServiceProperties.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring-boot-sample-actuator-2.0.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/spring-boot-sample-actuator-2.0.2.jar.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/application-endpoints.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/sample/actuator/ExampleInfoContributorTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/sample/actuator/HealthIT.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/sample/actuator/HelloWorldServiceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/src/main/java/sample/actuator/ExampleHealthIndicator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sample/actuator/ExampleHealthIndicator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/src/main/java/sample/actuator/ExampleInfoContributor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sample/actuator/ExampleInfoContributor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/src/main/java/sample/actuator/HelloWorldService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sample/actuator/HelloWorldService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/src/main/java/sample/actuator/SampleActuatorApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sample/actuator/SampleActuatorApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/src/main/java/sample/actuator/SampleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sample/actuator/SampleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/src/main/java/sample/actuator/ServiceProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sample/actuator/ServiceProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/src/test/java/sample/actuator/ExampleInfoContributorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/sample/actuator/ExampleInfoContributorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/src/test/java/sample/actuator/HealthIT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/sample/actuator/HealthIT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/src/test/java/sample/actuator/HelloWorldServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/sample/actuator/HelloWorldServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/src/test/resources/application-endpoints.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/application-endpoints.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1jGo8ilVZEhPIwAN0eDNMJryJf5" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Proyecto-Integrador/example-voting-app" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunManager" selected="JUnit.ExampleInfoContributorTest.infoMap">
+    <configuration name="ExampleInfoContributorTest.infoMap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-sample-actuator" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sample.actuator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sample.actuator" />
+      <option name="MAIN_CLASS_NAME" value="sample.actuator.ExampleInfoContributorTest" />
+      <option name="METHOD_NAME" value="infoMap" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelloWorldServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-sample-actuator" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sample.actuator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sample.actuator" />
+      <option name="MAIN_CLASS_NAME" value="sample.actuator.HelloWorldServiceTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelloWorldServiceTest.test_returnHolaHola" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-sample-actuator" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sample.actuator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sample.actuator" />
+      <option name="MAIN_CLASS_NAME" value="sample.actuator.HelloWorldServiceTest" />
+      <option name="METHOD_NAME" value="test_returnHolaHola" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelloWorldServiceTest.test_returnHolaHola" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-sample-actuator" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sample.actuator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sample.actuator" />
+      <option name="MAIN_CLASS_NAME" value="sample.actuator.HelloWorldServiceTest" />
+      <option name="METHOD_NAME" value="test_returnHolaHola" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelloWorldServiceTest.test_returnHolaHola" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-sample-actuator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sample.actuator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sample.actuator" />
+      <option name="MAIN_CLASS_NAME" value="sample.actuator.HelloWorldServiceTest" />
+      <option name="METHOD_NAME" value="test_returnHolaHola" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SampleControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-sample-actuator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sample.actuator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sample.actuator" />
+      <option name="MAIN_CLASS_NAME" value="sample.actuator.SampleControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SampleControllerTest.testRootMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-sample-actuator" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sample.actuator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="sample.actuator.SampleControllerTest" />
+      <option name="METHOD_NAME" value="testRootMessage" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.SampleControllerTest" />
+      <item itemvalue="JUnit.SampleControllerTest.testRootMessage" />
+      <item itemvalue="JUnit.HelloWorldServiceTest" />
+      <item itemvalue="JUnit.HelloWorldServiceTest.test_returnHolaHola" />
+      <item itemvalue="JUnit.ExampleInfoContributorTest.infoMap" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ExampleInfoContributorTest.infoMap" />
+        <item itemvalue="JUnit.HelloWorldServiceTest.test_returnHolaHola" />
+        <item itemvalue="JUnit.HelloWorldServiceTest" />
+        <item itemvalue="JUnit.SampleControllerTest" />
+        <item itemvalue="JUnit.SampleControllerTest.testRootMessage" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="840d3e31-437e-4f59-8906-d5f2046684c6" name="Default Changelist" comment="" />
+      <created>1603439634473</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603439634473</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="448" y="100" key="#Project_Structure" timestamp="1603550414104">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="448" y="100" key="#Project_Structure/0.0.1920.1044@0.0.1920.1044" timestamp="1603550414104" />
+    <state x="424" y="180" width="1071" height="813" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603550616434">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="424" y="180" width="1071" height="813" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1603550616434" />
+    <state x="665" y="324" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603551970191">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="665" y="324" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1044@0.0.1920.1044" timestamp="1603551970191" />
+    <state x="747" y="256" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1603439861056">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="747" y="256" key="#com.intellij.ide.macro.MacrosDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1603439861056" />
+    <state x="670" y="373" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1603550567888">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="670" y="373" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1044@0.0.1920.1044" timestamp="1603550567888" />
+    <state x="821" y="305" key="EnvironmentVariablesDialog" timestamp="1603439873313">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="821" y="305" key="EnvironmentVariablesDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1603439873313" />
+    <state x="748" y="280" key="FileChooserDialogImpl" timestamp="1603652034060">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="748" y="280" key="FileChooserDialogImpl/0.0.1920.1044@0.0.1920.1044" timestamp="1603652034060" />
+    <state width="1874" height="544" key="GridCell.Tab.0.bottom" timestamp="1603754201139">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="1874" height="544" key="GridCell.Tab.0.bottom/0.0.1920.1044@0.0.1920.1044" timestamp="1603754201139" />
+    <state width="1874" height="544" key="GridCell.Tab.0.center" timestamp="1603754201139">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="1874" height="544" key="GridCell.Tab.0.center/0.0.1920.1044@0.0.1920.1044" timestamp="1603754201139" />
+    <state width="1874" height="544" key="GridCell.Tab.0.left" timestamp="1603754201139">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="1874" height="544" key="GridCell.Tab.0.left/0.0.1920.1044@0.0.1920.1044" timestamp="1603754201139" />
+    <state width="1874" height="544" key="GridCell.Tab.0.right" timestamp="1603754201139">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="1874" height="544" key="GridCell.Tab.0.right/0.0.1920.1044@0.0.1920.1044" timestamp="1603754201139" />
+    <state x="498" y="180" key="Maven.ArtifactSearchDialog" timestamp="1603552431507">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="498" y="180" key="Maven.ArtifactSearchDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1603552431507" />
+    <state x="579" y="193" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1603552475032">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="579" y="193" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1044@0.0.1920.1044" timestamp="1603552475032" />
+  </component>
+</project>
